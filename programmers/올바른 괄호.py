@@ -2,9 +2,7 @@
 from collections import deque
 def solution(s):
     answer = True
-
-    if (len(s) % 2 != 0) :
-        return False
+    if (len(s) % 2 != 0) : return False
     bc = 0
     que =deque(s)
     while que :
@@ -20,4 +18,24 @@ def solution(s):
     if bc != 0 :
         answer = False
 
+    return answer
+
+
+from collections import deque
+
+
+def solution(s):
+    answer = True
+    if len(s) % 2 != 0: return False
+    li = []
+    que = deque(s)
+    for q in que:
+        if q == ")":
+            if len(li) < 1:
+                return False
+            else:
+                li.pop(-1)
+        else:
+            li.append(1)
+    if len(li) != 0: return False
     return answer

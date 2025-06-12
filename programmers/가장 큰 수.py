@@ -1,4 +1,4 @@
-def solution(numbers):
+def solution2(numbers):
     answer = ''
     numlist = quickSort(numbers)
     print(numlist)
@@ -44,5 +44,19 @@ def compareStrNum(a, b) :
         elif a[-1] < b[-1] :
             return False
 
-print(solution([555, 565, 566, 55, 56, 5, 54, 544, 549]))
+def solution(numbers):
+    print(numbers)
+    answer = ''
+    numbers=list(map(str,numbers))
+    print(numbers)
+    numbers = sorted(numbers, key=lambda x : (x*4)[:4], reverse=True)
+    answer = "".join(numbers)
+    if answer[0] == '0':
+        return '0'
+    else:
+        return answer
+
+
+# print(solution([555, 565, 566, 55, 56, 5, 54, 544, 549]))
+print(solution([3, 30, 34, 5, 9]))
 

@@ -1,0 +1,6 @@
+"https://localhost:8443/CallGetPimsTest?a=api/GetInterpolatedValues&tagName=GS.UT.UT-TI-1081&startDate=2025-01-01&endDate=2025-01-02&aggregate=average&stepSize=86400",
+"https://localhost:8443/CallGetPimsTest?a=api/GetInterpolatedValues&tagName=GS.UT.UT-TT-5023B&startDate=2025-01-01&endDate=2025-01-02&aggregate=average&stepSize=86400",
+"https://localhost:8443/CallGetPimsTest?a=api/GetInterpolatedValues&tagName=GS.UT.UT-TT-5023B&startDate=2025-01-01&endDate=2025-01-02&aggregate=average&stepSize=86400",
+"https://localhost:8443/CallGetPimsTest?a=api/GetInterpolatedValues&tagName=GS.BAS.BA-TI-1141&startDate=2025-01-01&endDate=2025-01-02&aggregate=average&stepSize=86400",
+"https://localhost:8443/CallGetPimsTest?a=api/GetInterpolatedValues&tagName=GS.BAS.BA-TI-1151&startDate=2025-01-01&endDate=2025-01-02&aggregate=average&stepSize=86400",
+"https://localhost:8443/CallGetPimsTest?a=api/GetInterpolatedValues&tagName=GS.BAS.BA-TI-1261&startDate=2025-01-01&endDate=2025-01-02&aggregate=average&stepSize=86400"

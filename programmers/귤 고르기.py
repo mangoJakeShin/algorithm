@@ -13,5 +13,5 @@ def solution(k, tangerine):
         sums += tan1.pop(0)[1]
         answer += 1
 
-    return answer
+    return answer2
 
